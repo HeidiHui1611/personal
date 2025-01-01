@@ -1,0 +1,197 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #471b50;
+    background-color: #efcbd9;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 5px;
+    background-color: rgb(228, 187, 224);
+    padding: 5px;
+  }
+
+.column{
+    color:rgb(101, 4, 166);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #9a649f; /* Dark background color */
+    padding: 0.5em 0;
+  }
+  
+  .nav-bar {
+    list-style: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes items align horizontally */
+    justify-content: center; /* Centers the nav items */
+  }
+  
+  .nav-bar li {
+    margin: 0 15px; /* Add spacing between items */
+  }
+  
+  .nav-bar a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .nav-bar a:hover {
+    background-color: rgb(224, 143, 216); /* Darker background on hover */
+    border-radius: 5px; /* Optional rounded corners */
+  }
+
+div.container {
+    text-align:center;
+}
+#edu{
+    margin-bottom: 20px;
+}
+ul.course {
+    display: inline-block;
+    text-align: left;
+}
+
+  /* Section Styling */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9a649f;
+    font-size: xx-large;
+}
+
+section h2{
+    text-align: center;
+    color: #a023ae;
+    font-size: larger;
+}
+
+section h3 {
+    text-align: center;
+    margin-top: 16px;
+    color: #633e67;
+}
+
+section h4 {
+    text-align: center;
+    color: #633e67;
+}
+
+.profile-pic {
+    display: block;
+    margin: 15px auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+p {
+    text-align: center;
+  }
+
+/* Projects Styling */
+#smallproject, #smallexp{
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*.project {
+    
+}*/
+
+.project h4, .exp h4{
+    text-align: left;
+    font-size: medium;
+}
+
+.project h3, .exp h3 {
+    color: #e3207b;
+    text-align: left;
+    font-size:larger
+}
+.project ul{
+    font-size:medium
+}
+
+.project a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+
+/* Skills Styling */
+
+
+.skills-list li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+
+}
+
+#skh3 h3{
+    text-align: left;
+}
+#skill{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
